@@ -1,0 +1,31 @@
+pane	customer-dashboard-server	1	:..hboard-server	1	:*	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/customer-dashboard-server	1	zsh	:
+pane	customer-dashboard-server	2	:nvim	0	:#-	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/customer-dashboard-server	1	nvim	:nvim .
+pane	forms-database	1	:..orms-database	1	:*	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/forms-database	1	zsh	:
+pane	forms-server	1	:../forms-server	0	:#	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/forms-server	1	zsh	:
+pane	forms-server	2	:..ervices/tests	1	:*	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/tests	0	nvim	:nvim get-key.js
+pane	forms-server	2	:..ervices/tests	1	:*	2	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/tests	1	zsh	:
+pane	forms-server	3	:..server/deploy	0	:#-	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/tests	1	nvim	:nvim get-key.js
+pane	forms-server	3	:..server/deploy	0	:#-	2	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/forms-server/deploy	0	zsh	:
+pane	ivr-employee	1	:tail	0	:	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	0	zsh	:
+pane	ivr-employee	1	:tail	0	:	2	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	0	zsh	:
+pane	ivr-employee	1	:tail	0	:	3	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	1	tail	:tail -f log/development.log
+pane	ivr-employee	1	:tail	0	:	4	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	0	zsh	:
+pane	ivr-employee	1	:tail	0	:	5	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	0	zsh	:
+pane	ivr-employee	1	:tail	0	:	6	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	0	zsh	:
+pane	ivr-employee	2	:..e/spec/stress	0	:#-	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	1	nvim	:nvim .
+pane	ivr-employee	2	:..e/spec/stress	0	:#-	2	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee/spec/stress	0	zsh	:
+pane	ivr-employee	3	:../ivr-employee	1	:*	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	1	zsh	:
+pane	ivr-reports	1	:..r/ivr-reports	1	:*	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-reports	1	zsh	:
+pane	kelsus-tools	1	:../kelsus-tools	1	:*	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/kelsus-tools	1	zsh	:
+window	customer-dashboard-server	1	1	:*	b260,80x24,0,0,3
+window	customer-dashboard-server	2	0	:#-	b261,80x24,0,0,4
+window	forms-database	1	1	:*	b262,80x24,0,0,5
+window	forms-server	1	0	:#	b883,188x42,0,0,6
+window	forms-server	2	1	:*	a398,188x42,0,0[188x21,0,0,7,188x20,0,22,18]
+window	forms-server	3	0	:#-	b0da,188x42,0,0[188x28,0,0,8,188x13,0,29,19]
+window	ivr-employee	1	0	:	6508,188x42,0,0{128x42,0,0[128x14,0,0,9,128x14,0,15,10,128x12,0,30,11],59x42,129,0[59x30,129,0{56x30,129,0,12,2x30,186,0,13},59x11,129,31,14]}
+window	ivr-employee	2	0	:#-	4458,188x42,0,0[188x38,0,0,15,188x3,0,39,16]
+window	ivr-employee	3	1	:*	dc6f,188x42,0,0,20
+window	ivr-reports	1	1	:*	dc70,188x42,0,0,21
+window	kelsus-tools	1	1	:*	5a76,146x32,0,0,17
+state	ivr-reports	

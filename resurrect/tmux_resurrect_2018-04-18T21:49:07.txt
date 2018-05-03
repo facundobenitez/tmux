@@ -1,0 +1,38 @@
+pane	0	1	:..pdf-generator	1	:*	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/forms-pdf-generator	1	zsh	:
+pane	customer-dashboard-server	1	:..hboard-server	1	:*	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/customer-dashboard-server	1	zsh	:
+pane	customer-dashboard-server	2	:nvim	0	:#-	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/customer-dashboard-server	1	nvim	:nvim .
+pane	forms-database	1	:docker-compose	1	:*	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/forms-database	1	docker-compose	:docker-compose up --build
+pane	forms-database-new	1	:../forms-server	1	:*	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/forms-server	1	zsh	:
+pane	forms-server	1	:../forms-server	0	:	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/forms-server	1	zsh	:
+pane	forms-server	2	:nvim	0	:#-	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/forms-server	1	nvim	:nvim .
+pane	forms-server	3	:..server/deploy	1	:*	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/tests	0	nvim	:nvim get-key.js
+pane	forms-server	3	:..server/deploy	1	:*	2	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/forms-server/deploy	1	zsh	:
+pane	ivr-employee	1	:../ivr-employee	0	:#	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	0	zsh	:
+pane	ivr-employee	1	:../ivr-employee	0	:#	2	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	0	zsh	:
+pane	ivr-employee	1	:../ivr-employee	0	:#	3	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	0	tail	:tail -f log/development.log
+pane	ivr-employee	1	:../ivr-employee	0	:#	4	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	0	zsh	:
+pane	ivr-employee	1	:../ivr-employee	0	:#	5	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	0	zsh	:
+pane	ivr-employee	1	:../ivr-employee	0	:#	6	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	1	zsh	:
+pane	ivr-employee	2	:nvim	1	:*	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	1	nvim	:nvim .
+pane	ivr-employee	2	:nvim	1	:*	2	:/Users/Facu	0	zsh	:
+pane	ivr-employee	3	:../ivr-employee	0	:-	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-employee	1	zsh	:
+pane	ivr-reports	1	:..r/ivr-reports	1	:*	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-reports	1	zsh	:
+pane	ivr-reports	2	:..r/ivr-reports	0	:#-	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/ivr/ivr-reports	1	nvim	:nvim .
+pane	ivr-reports	3	:nvim	0	:	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/tests	1	nvim	:nvim moment-test.js
+pane	kelsus-tools	1	:../kelsus-tools	1	:*	1	:/Users/Facu/Documents/workspace/kelsus/kbs-backend/platform-services/kelsus-tools	1	zsh	:
+window	0	1	1	:*	bc1e,268x62,0,0,1
+window	customer-dashboard-server	1	1	:*	bc1f,268x62,0,0,2
+window	customer-dashboard-server	2	0	:#-	bc20,268x62,0,0,3
+window	forms-database	1	1	:*	bc21,268x62,0,0,4
+window	forms-database-new	1	1	:*	bc22,268x62,0,0,5
+window	forms-server	1	0	:	c963,272x66,0,0,6
+window	forms-server	2	0	:#-	c964,272x66,0,0,7
+window	forms-server	3	1	:*	a39e,272x66,0,0[272x41,0,0,8,272x24,0,42,9]
+window	ivr-employee	1	0	:#	f4b0,272x66,0,0{170x66,0,0[170x22,0,0,10,170x22,0,23,11,170x20,0,46,12],101x66,171,0[101x41,171,0{98x41,171,0,13,2x41,270,0,14},101x24,171,42,15]}
+window	ivr-employee	2	1	:*	6542,272x66,0,0[272x41,0,0,16,272x24,0,42,17]
+window	ivr-employee	3	0	:-	64e7,272x66,0,0,18
+window	ivr-reports	1	1	:*	64e8,272x66,0,0,19
+window	ivr-reports	2	0	:#-	e4e0,272x66,0,0,21
+window	ivr-reports	3	0	:	e4e2,272x66,0,0,23
+window	kelsus-tools	1	1	:*	de3f,268x62,0,0,20
+state	ivr-reports	ivr-employee
